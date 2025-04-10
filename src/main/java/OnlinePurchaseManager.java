@@ -15,7 +15,7 @@ public class OnlinePurchaseManager
     int count =0;
     for(int i =0; i<purchases.size(); i++){
       if(purchases.get(i).equals(maker) && purchases.get(i).isElectronic()){
-        count++
+        count++;
       }
     }
     return count;
